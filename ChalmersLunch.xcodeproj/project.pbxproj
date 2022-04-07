@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A919A06227FF0E1B002C4A44 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919A06127FF0E1B002C4A44 /* Bundle-Decodable.swift */; };
+		A919A06427FF1138002C4A44 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919A06327FF1138002C4A44 /* RestaurantView.swift */; };
+		A919A06627FF11DA002C4A44 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919A06527FF11DA002C4A44 /* RestaurantDetailView.swift */; };
+		A931B19E27FB7AFC004792CB /* ChalmersLunchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931B19D27FB7AFC004792CB /* ChalmersLunchApp.swift */; };
+		A931B1A027FB7AFC004792CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931B19F27FB7AFC004792CB /* ContentView.swift */; };
+		A931B1A227FB7AFD004792CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A931B1A127FB7AFD004792CB /* Assets.xcassets */; };
+		A931B1A527FB7AFD004792CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A931B1A427FB7AFD004792CB /* Preview Assets.xcassets */; };
+		A931B1AC27FB7B91004792CB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931B1AB27FB7B91004792CB /* WelcomeView.swift */; };
+		A931B1AE27FB7CB9004792CB /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931B1AD27FB7CB9004792CB /* Restaurant.swift */; };
+		A931B1B027FB7D3F004792CB /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931B1AF27FB7D3F004792CB /* Favorites.swift */; };
+		A9E268FB27FC9A8A00BD1046 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E268FA27FC9A8A00BD1046 /* Result.swift */; };
+		A9E268FD27FE118600BD1046 /* restaurant.json in Resources */ = {isa = PBXBuildFile; fileRef = A9E268FC27FE118600BD1046 /* restaurant.json */; };
+		A9E268FF27FE119A00BD1046 /* restaurant.json in Resources */ = {isa = PBXBuildFile; fileRef = A9E268FE27FE119A00BD1046 /* restaurant.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A919A06127FF0E1B002C4A44 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		A919A06327FF1138002C4A44 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		A919A06527FF11DA002C4A44 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		A931B19A27FB7AFC004792CB /* ChalmersLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalmersLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A931B19D27FB7AFC004792CB /* ChalmersLunchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalmersLunchApp.swift; sourceTree = "<group>"; };
+		A931B19F27FB7AFC004792CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A931B1A127FB7AFD004792CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A931B1A427FB7AFD004792CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A931B1AB27FB7B91004792CB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A931B1AD27FB7CB9004792CB /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A931B1AF27FB7D3F004792CB /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		A9E268FA27FC9A8A00BD1046 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A9E268FC27FE118600BD1046 /* restaurant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurant.json; sourceTree = "<group>"; };
+		A9E268FE27FE119A00BD1046 /* restaurant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurant.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A931B19727FB7AFC004792CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A931B19127FB7AFC004792CB = {
+			isa = PBXGroup;
+			children = (
+				A931B19C27FB7AFC004792CB /* ChalmersLunch */,
+				A931B19B27FB7AFC004792CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A931B19B27FB7AFC004792CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A931B19A27FB7AFC004792CB /* ChalmersLunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A931B19C27FB7AFC004792CB /* ChalmersLunch */ = {
+			isa = PBXGroup;
+			children = (
+				A931B19D27FB7AFC004792CB /* ChalmersLunchApp.swift */,
+				A931B19F27FB7AFC004792CB /* ContentView.swift */,
+				A931B1AB27FB7B91004792CB /* WelcomeView.swift */,
+				A919A06327FF1138002C4A44 /* RestaurantView.swift */,
+				A919A06527FF11DA002C4A44 /* RestaurantDetailView.swift */,
+				A931B1AD27FB7CB9004792CB /* Restaurant.swift */,
+				A919A06127FF0E1B002C4A44 /* Bundle-Decodable.swift */,
+				A9E268FA27FC9A8A00BD1046 /* Result.swift */,
+				A931B1AF27FB7D3F004792CB /* Favorites.swift */,
+				A9E268FE27FE119A00BD1046 /* restaurant.json */,
+				A931B1A127FB7AFD004792CB /* Assets.xcassets */,
+				A931B1A327FB7AFD004792CB /* Preview Content */,
+			);
+			path = ChalmersLunch;
+			sourceTree = "<group>";
+		};
+		A931B1A327FB7AFD004792CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9E268FC27FE118600BD1046 /* restaurant.json */,
+				A931B1A427FB7AFD004792CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A931B19927FB7AFC004792CB /* ChalmersLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A931B1A827FB7AFD004792CB /* Build configuration list for PBXNativeTarget "ChalmersLunch" */;
+			buildPhases = (
+				A931B19627FB7AFC004792CB /* Sources */,
+				A931B19727FB7AFC004792CB /* Frameworks */,
+				A931B19827FB7AFC004792CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChalmersLunch;
+			productName = ChalmersLunch;
+			productReference = A931B19A27FB7AFC004792CB /* ChalmersLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A931B19227FB7AFC004792CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A931B19927FB7AFC004792CB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A931B19527FB7AFC004792CB /* Build configuration list for PBXProject "ChalmersLunch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A931B19127FB7AFC004792CB;
+			productRefGroup = A931B19B27FB7AFC004792CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A931B19927FB7AFC004792CB /* ChalmersLunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A931B19827FB7AFC004792CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E268FF27FE119A00BD1046 /* restaurant.json in Resources */,
+				A931B1A527FB7AFD004792CB /* Preview Assets.xcassets in Resources */,
+				A9E268FD27FE118600BD1046 /* restaurant.json in Resources */,
+				A931B1A227FB7AFD004792CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A931B19627FB7AFC004792CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E268FB27FC9A8A00BD1046 /* Result.swift in Sources */,
+				A931B1AE27FB7CB9004792CB /* Restaurant.swift in Sources */,
+				A931B1A027FB7AFC004792CB /* ContentView.swift in Sources */,
+				A919A06427FF1138002C4A44 /* RestaurantView.swift in Sources */,
+				A931B1AC27FB7B91004792CB /* WelcomeView.swift in Sources */,
+				A919A06627FF11DA002C4A44 /* RestaurantDetailView.swift in Sources */,
+				A931B1B027FB7D3F004792CB /* Favorites.swift in Sources */,
+				A919A06227FF0E1B002C4A44 /* Bundle-Decodable.swift in Sources */,
+				A931B19E27FB7AFC004792CB /* ChalmersLunchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A931B1A627FB7AFD004792CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A931B1A727FB7AFD004792CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A931B1A927FB7AFD004792CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChalmersLunch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BCV7Q9YUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitnoori.ChalmersLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A931B1AA27FB7AFD004792CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChalmersLunch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BCV7Q9YUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitnoori.ChalmersLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A931B19527FB7AFC004792CB /* Build configuration list for PBXProject "ChalmersLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A931B1A627FB7AFD004792CB /* Debug */,
+				A931B1A727FB7AFD004792CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A931B1A827FB7AFD004792CB /* Build configuration list for PBXNativeTarget "ChalmersLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A931B1A927FB7AFD004792CB /* Debug */,
+				A931B1AA27FB7AFD004792CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A931B19227FB7AFC004792CB /* Project object */;
+}

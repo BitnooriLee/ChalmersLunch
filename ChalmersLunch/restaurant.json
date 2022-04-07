@@ -1,0 +1,1177 @@
+
+[
+  {
+    "id": "1a3f866d-0670-4d06-9118-08da019145a7",
+    "startDate": "4/6/2022 12:00:00 AM",
+    "endDate": "4/6/2022 12:00:00 AM",
+    "dishID": "9cfcb36c-0ff9-4bf5-b4e5-db0b2a4f0894",
+    "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279",
+    "mealProvidingUnit": {
+      "id": "21f31565-5c2b-4b47-d2a1-08d558129279",
+      "mealProvidingUnitName": "Kårrestaurangen",
+      "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+      "showFoods": true,
+      "showArticles": true,
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "sevenDayWeek": false,
+      "displayNameCategories": null,
+      "dishTypes": [
+        {
+          "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+          "dishTypeName": "Classic Vegan",
+          "dishTypeNameEnglish": "Classic Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+          "dishTypeName": "Classic Fisk",
+          "dishTypeNameEnglish": "Classic Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+          "dishTypeName": "Express",
+          "dishTypeNameEnglish": "Express",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+          "dishTypeName": "Veckans Soppa",
+          "dishTypeNameEnglish": "Veckans Soppa",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+          "dishTypeName": "Classic Kött",
+          "dishTypeNameEnglish": "Classic Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+          "dishTypeName": "Veckans Sallad",
+          "dishTypeNameEnglish": "Veckans Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+          "dishTypeName": "Classic Vegetarisk",
+          "dishTypeNameEnglish": "Classic Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "settings": {
+        "id": "54e3662d-a393-41df-e101-08d5c709c713",
+        "hasLibrary": false,
+        "hasNyckelhalsLabel": false,
+        "hasWwfApprovedLabel": false,
+        "hasPricesLabel": false,
+        "dayMenuSettings": null,
+        "weekMenuSettings": null,
+        "individualMenuSettings": null
+      }
+    },
+    "displayNames": [
+      {
+        "dishID": null,
+        "id": "173a6692-fad4-476c-7c0c-08da019a923e",
+        "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+        "dishDisplayName": "Rödbetsbiff med klyftpotatis och tzatziki",
+        "dishOccurrenceID": "1a3f866d-0670-4d06-9118-08da019145a7",
+        "displayNameCategory": {
+          "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+          "displayNameCategoryName": "Swedish",
+          "sortOrder": 1,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      },
+      {
+        "dishID": null,
+        "id": "93c10ca7-6a22-4ec1-7c0d-08da019a923e",
+        "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+        "dishDisplayName": "Bettroot patty, potato wedges & tzaziki",
+        "dishOccurrenceID": "1a3f866d-0670-4d06-9118-08da019145a7",
+        "displayNameCategory": {
+          "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+          "displayNameCategoryName": "English",
+          "sortOrder": 2,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      }
+    ],
+    "dishTypeID": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+    "dishType": {
+      "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+      "dishTypeName": "Classic Vegan",
+      "dishTypeNameEnglish": "Classic Vegan",
+      "isEnabled": true,
+      "price": 0.0,
+      "hasPrice": false
+    },
+    "dish": {
+      "id": "9cfcb36c-0ff9-4bf5-b4e5-db0b2a4f0894",
+      "recipes": [
+        {
+          "id": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+          "recipeName": "Huvudrecept",
+          "allergens": [
+            {
+              "id": "add6bed5-dd30-4778-5bff-08da019a4904",
+              "allergenCode": "soya",
+              "recipeID": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+              "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/soya.svg"
+            }
+          ],
+          "ingredients": [
+            {
+              "id": "b7c45f56-898f-4891-b585-0c2d66958482",
+              "amount": 40.0,
+              "foodID": "c98d9e7c-830e-459a-b66f-a45a5f5aa65d",
+              "regionID": "087d649f-4be2-452d-a7c2-7bf08ff23238",
+              "productionActivityID": "96c013bb-5cf7-4860-8e53-15dee3a3c807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+              "totalEmission": 0.01
+            },
+            {
+              "id": "cec8b021-95a1-4873-bd0d-7da96c219c1c",
+              "amount": 30.0,
+              "foodID": "c701fc4e-5270-4297-83d3-1cdb20b43c2e",
+              "regionID": "485cbfec-279d-4f63-ae9c-5104914ccce2",
+              "productionActivityID": "5a68ad0b-068e-46cb-93c5-d77330b95eab",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+              "totalEmission": 0.04
+            },
+            {
+              "id": "b2d48a65-72cd-4adc-905c-c5465f82b81d",
+              "amount": 120.0,
+              "foodID": "b79accdc-6ebb-4c7c-a8eb-1295601b3ad0",
+              "regionID": "087d649f-4be2-452d-a7c2-7bf08ff23238",
+              "productionActivityID": "96c013bb-5cf7-4860-8e53-15dee3a3c807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+              "totalEmission": 0.04
+            },
+            {
+              "id": "aea237be-10d1-4b5a-8f21-f25f43f8c5a6",
+              "amount": 15.0,
+              "foodID": "aa20ad0b-5dd8-4cc8-b52b-1c197971f72d",
+              "regionID": "485cbfec-279d-4f63-ae9c-5104914ccce2",
+              "productionActivityID": "29cbc03d-ca51-44cf-a246-4ff2e55ad51f",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+              "totalEmission": 0.01
+            },
+            {
+              "id": "38f73876-9013-44fd-b8a0-f48887c9d049",
+              "amount": 200.0,
+              "foodID": "d3a3abd5-906d-40d9-9c60-1235e6a4b83c",
+              "regionID": "0717f9d4-b28c-4d16-bc64-44bcfc8271b8",
+              "productionActivityID": "3c535cc2-4373-4eef-b7c2-b9f7eb554b5b",
+              "isEcological": true,
+              "measurementUnitID": "4",
+              "recipeID": "f3a18bd2-a274-48f0-bc07-ae2645daaf9f",
+              "totalEmission": 0.02
+            }
+          ],
+          "basedOn": null,
+          "instructions": null,
+          "portions": 1,
+          "cookbookIDs": [
+            
+          ],
+          "totalEmission": 0.12
+        }
+      ],
+      "dishName": "Vegan, biff, potatis, majonnäs",
+      "displayNames": null,
+      "dishType": null,
+      "cookbookIDs": [
+        
+      ],
+      "editableByDefault": false,
+      "totalEmission": 0.12,
+      "mainRecipe": null,
+      "price": 0.0,
+      "prices": "80/73/65",
+      "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_1.png"
+    },
+    "availableDishTypes": [
+      {
+        "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+        "dishTypeName": "Classic Vegan",
+        "dishTypeNameEnglish": "Classic Vegan",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+        "dishTypeName": "Classic Fisk",
+        "dishTypeNameEnglish": "Classic Fish",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+        "dishTypeName": "Express",
+        "dishTypeNameEnglish": "Express",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+        "dishTypeName": "Veckans Soppa",
+        "dishTypeNameEnglish": "Veckans Soppa",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+        "dishTypeName": "Classic Kött",
+        "dishTypeNameEnglish": "Classic Meat",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+        "dishTypeName": "Veckans Sallad",
+        "dishTypeNameEnglish": "Veckans Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+        "dishTypeName": "Classic Vegetarisk",
+        "dishTypeNameEnglish": "Classic Vegetarisk",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      }
+    ],
+    "editableByDefault": false,
+    "sortOrder": 0,
+    "numberOfPreparedPortions": 0,
+    "numberOfServedPortions": 0,
+    "allergens": [
+      
+    ],
+    "overrideAllergens": false,
+    "dishMenuSettings": null,
+    "dayMenuSettings": null,
+    "weekMenuSettings": null,
+    "nyckelhalmarkt": false,
+    "wwfApproved": false
+  },
+  {
+    "id": "6d2cd966-16da-4b43-911f-08da019145a7",
+    "startDate": "4/6/2022 12:00:00 AM",
+    "endDate": "4/6/2022 12:00:00 AM",
+    "dishID": "e1d30cc7-b95b-4767-bdc2-5087448f55c5",
+    "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279",
+    "mealProvidingUnit": {
+      "id": "21f31565-5c2b-4b47-d2a1-08d558129279",
+      "mealProvidingUnitName": "Kårrestaurangen",
+      "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+      "showFoods": true,
+      "showArticles": true,
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "sevenDayWeek": false,
+      "displayNameCategories": null,
+      "dishTypes": [
+        {
+          "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+          "dishTypeName": "Classic Vegan",
+          "dishTypeNameEnglish": "Classic Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+          "dishTypeName": "Classic Fisk",
+          "dishTypeNameEnglish": "Classic Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+          "dishTypeName": "Express",
+          "dishTypeNameEnglish": "Express",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+          "dishTypeName": "Veckans Soppa",
+          "dishTypeNameEnglish": "Veckans Soppa",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+          "dishTypeName": "Classic Kött",
+          "dishTypeNameEnglish": "Classic Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+          "dishTypeName": "Veckans Sallad",
+          "dishTypeNameEnglish": "Veckans Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+          "dishTypeName": "Classic Vegetarisk",
+          "dishTypeNameEnglish": "Classic Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "settings": {
+        "id": "54e3662d-a393-41df-e101-08d5c709c713",
+        "hasLibrary": false,
+        "hasNyckelhalsLabel": false,
+        "hasWwfApprovedLabel": false,
+        "hasPricesLabel": false,
+        "dayMenuSettings": null,
+        "weekMenuSettings": null,
+        "individualMenuSettings": null
+      }
+    },
+    "displayNames": [
+      {
+        "dishID": null,
+        "id": "15cf16d2-3eaf-426b-7c1a-08da019a923e",
+        "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+        "dishDisplayName": "Färsbiff, grönpepparsås, lingon & potatis",
+        "dishOccurrenceID": "6d2cd966-16da-4b43-911f-08da019145a7",
+        "displayNameCategory": {
+          "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+          "displayNameCategoryName": "Swedish",
+          "sortOrder": 1,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      },
+      {
+        "dishID": null,
+        "id": "cc3dd962-4fe5-46e2-7c1b-08da019a923e",
+        "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+        "dishDisplayName": "patty, green pepper sauce, lingonberries & potatoes",
+        "dishOccurrenceID": "6d2cd966-16da-4b43-911f-08da019145a7",
+        "displayNameCategory": {
+          "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+          "displayNameCategoryName": "English",
+          "sortOrder": 2,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      }
+    ],
+    "dishTypeID": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+    "dishType": {
+      "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+      "dishTypeName": "Classic Kött",
+      "dishTypeNameEnglish": "Classic Meat",
+      "isEnabled": true,
+      "price": 0.0,
+      "hasPrice": false
+    },
+    "dish": {
+      "id": "e1d30cc7-b95b-4767-bdc2-5087448f55c5",
+      "recipes": [
+        {
+          "id": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+          "recipeName": "Huvudrätt",
+          "allergens": [
+            {
+              "id": "34102455-6ac1-45b4-5bfa-08da019a4904",
+              "allergenCode": "eggs",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/eggs.svg"
+            },
+            {
+              "id": "482a146d-e78d-4939-5bfb-08da019a4904",
+              "allergenCode": "gluten",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/gluten.svg"
+            },
+            {
+              "id": "e3a678e5-9210-49d7-5bfc-08da019a4904",
+              "allergenCode": "milk",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/milk.svg"
+            }
+          ],
+          "ingredients": [
+            {
+              "id": "4612fc30-142c-441c-acbd-31e765b01405",
+              "amount": 60.0,
+              "foodID": "0F75AAF2-D78F-4022-AA3E-EB538AAAC973",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.16
+            },
+            {
+              "id": "f86eb5c3-0f0c-489e-ae9c-4d06e6f462f2",
+              "amount": 20.0,
+              "foodID": "54A5C9EA-5AD7-4CF9-B6B3-5F33AC6AA035",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.02
+            },
+            {
+              "id": "b6e4ab83-437f-44b7-9fed-4fcb96b1cb48",
+              "amount": 20.0,
+              "foodID": "032A8079-EEE4-49D1-B9FD-8E2A8AA44632",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "E4982D21-EC3E-44A3-96D2-D6A999290386",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.14
+            },
+            {
+              "id": "7691b01e-471e-43e8-bf46-797acf3a2386",
+              "amount": 10.0,
+              "foodID": "333287F6-7320-4D1E-9AC7-EBDD60E05F35",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "8492E206-1BE6-439B-BFCE-EFEABA9BEB69",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.01
+            },
+            {
+              "id": "00d16733-7277-4eb3-80cd-a82b2ff06851",
+              "amount": 20.0,
+              "foodID": "E3452F62-DDD8-4F30-9A92-623A77118724",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.03
+            },
+            {
+              "id": "09260a43-0bad-46c8-9039-b4a2a93f6cce",
+              "amount": 60.0,
+              "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.04
+            },
+            {
+              "id": "c8ca2b3b-e04d-4e2d-886a-cdc7834044f8",
+              "amount": 140.0,
+              "foodID": "74F58074-5CA4-4D33-BECB-3EF40DC1A63E",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "7E4F1055-6F2F-41E4-BFE7-65B084F00E84",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 2.33
+            },
+            {
+              "id": "779017e3-35f1-4caa-b8a0-d6bbfafcfb18",
+              "amount": 180.0,
+              "foodID": "D3A3ABD5-906D-40D9-9C60-1235E6A4B83C",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "1E19130C-0CED-42D6-9330-203B8BD5FF61",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "232f3b0f-7c63-45c9-a9c3-5a9cf55c6dc9",
+              "totalEmission": 0.02
+            }
+          ],
+          "basedOn": null,
+          "instructions": null,
+          "portions": 1,
+          "cookbookIDs": [
+            
+          ],
+          "totalEmission": 2.75
+        }
+      ],
+      "dishName": "Köttfärslimpa, varm mejerisås & rostad potatis",
+      "displayNames": null,
+      "dishType": null,
+      "cookbookIDs": [
+        
+      ],
+      "editableByDefault": false,
+      "totalEmission": 2.75,
+      "mainRecipe": null,
+      "price": 0.0,
+      "prices": "80/73/65",
+      "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_10.png"
+    },
+    "availableDishTypes": [
+      {
+        "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+        "dishTypeName": "Classic Vegan",
+        "dishTypeNameEnglish": "Classic Vegan",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+        "dishTypeName": "Classic Fisk",
+        "dishTypeNameEnglish": "Classic Fish",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+        "dishTypeName": "Express",
+        "dishTypeNameEnglish": "Express",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+        "dishTypeName": "Veckans Soppa",
+        "dishTypeNameEnglish": "Veckans Soppa",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+        "dishTypeName": "Classic Kött",
+        "dishTypeNameEnglish": "Classic Meat",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+        "dishTypeName": "Veckans Sallad",
+        "dishTypeNameEnglish": "Veckans Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+        "dishTypeName": "Classic Vegetarisk",
+        "dishTypeNameEnglish": "Classic Vegetarisk",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      }
+    ],
+    "editableByDefault": false,
+    "sortOrder": 0,
+    "numberOfPreparedPortions": 0,
+    "numberOfServedPortions": 0,
+    "allergens": [
+      
+    ],
+    "overrideAllergens": false,
+    "dishMenuSettings": null,
+    "dayMenuSettings": null,
+    "weekMenuSettings": null,
+    "nyckelhalmarkt": false,
+    "wwfApproved": false
+  },
+  {
+    "id": "fc9d8d72-da09-496e-9120-08da019145a7",
+    "startDate": "4/6/2022 12:00:00 AM",
+    "endDate": "4/6/2022 12:00:00 AM",
+    "dishID": "89c3e2e2-43e9-4216-b40c-8d3cfefca3ae",
+    "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279",
+    "mealProvidingUnit": {
+      "id": "21f31565-5c2b-4b47-d2a1-08d558129279",
+      "mealProvidingUnitName": "Kårrestaurangen",
+      "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+      "showFoods": true,
+      "showArticles": true,
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "sevenDayWeek": false,
+      "displayNameCategories": null,
+      "dishTypes": [
+        {
+          "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+          "dishTypeName": "Classic Vegan",
+          "dishTypeNameEnglish": "Classic Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+          "dishTypeName": "Classic Fisk",
+          "dishTypeNameEnglish": "Classic Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+          "dishTypeName": "Express",
+          "dishTypeNameEnglish": "Express",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+          "dishTypeName": "Veckans Soppa",
+          "dishTypeNameEnglish": "Veckans Soppa",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+          "dishTypeName": "Classic Kött",
+          "dishTypeNameEnglish": "Classic Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+          "dishTypeName": "Veckans Sallad",
+          "dishTypeNameEnglish": "Veckans Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+          "dishTypeName": "Classic Vegetarisk",
+          "dishTypeNameEnglish": "Classic Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "settings": {
+        "id": "54e3662d-a393-41df-e101-08d5c709c713",
+        "hasLibrary": false,
+        "hasNyckelhalsLabel": false,
+        "hasWwfApprovedLabel": false,
+        "hasPricesLabel": false,
+        "dayMenuSettings": null,
+        "weekMenuSettings": null,
+        "individualMenuSettings": null
+      }
+    },
+    "displayNames": [
+      {
+        "dishID": null,
+        "id": "e0edec4b-79db-44e5-7c1c-08da019a923e",
+        "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+        "dishDisplayName": "Rågstekt strömming, potatispuré, skirat smör & lingon",
+        "dishOccurrenceID": "fc9d8d72-da09-496e-9120-08da019145a7",
+        "displayNameCategory": {
+          "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+          "displayNameCategoryName": "Swedish",
+          "sortOrder": 1,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      },
+      {
+        "dishID": null,
+        "id": "363da490-2132-4d55-7c1d-08da019a923e",
+        "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+        "dishDisplayName": "Rye fried herring, potato purée, melted butter & lingonberries",
+        "dishOccurrenceID": "fc9d8d72-da09-496e-9120-08da019145a7",
+        "displayNameCategory": {
+          "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+          "displayNameCategoryName": "English",
+          "sortOrder": 2,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      }
+    ],
+    "dishTypeID": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+    "dishType": {
+      "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+      "dishTypeName": "Classic Fisk",
+      "dishTypeNameEnglish": "Classic Fish",
+      "isEnabled": true,
+      "price": 0.0,
+      "hasPrice": false
+    },
+    "dish": {
+      "id": "89c3e2e2-43e9-4216-b40c-8d3cfefca3ae",
+      "recipes": [
+        {
+          "id": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+          "recipeName": "Huvudrätt",
+          "allergens": [
+            {
+              "id": "17bf64c9-a029-4439-5bfd-08da019a4904",
+              "allergenCode": "gluten",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/gluten.svg"
+            },
+            {
+              "id": "6afdc950-dab7-4266-5bfe-08da019a4904",
+              "allergenCode": "milk",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/milk.svg"
+            }
+          ],
+          "ingredients": [
+            {
+              "id": "9b3d3dad-aa5a-4ce8-abca-124d5aef1819",
+              "amount": 10.0,
+              "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.01
+            },
+            {
+              "id": "acf4440e-2190-4ac0-bd17-447eff5dcff1",
+              "amount": 5.0,
+              "foodID": "C701FC4E-5270-4297-83D3-1CDB20B43C2E",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "2D0F02E7-76B5-4469-91AF-347D23966B37",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.01
+            },
+            {
+              "id": "60f3fac0-28e5-4f45-9ac7-72633d50948b",
+              "amount": 15.0,
+              "foodID": "FDADB8EB-AE48-457B-97F4-58E7206EE196",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.01
+            },
+            {
+              "id": "68a3f4f5-c7aa-4428-9e0a-9483cfb7dba5",
+              "amount": 40.0,
+              "foodID": "404C5C6C-CC97-4617-B60F-1D6A1295E11D",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "0F64793B-07DD-4600-81ED-37B5A9B88CB2",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.03
+            },
+            {
+              "id": "e24b03c6-35d5-4fe9-a0d1-ae954fc47b71",
+              "amount": 50.0,
+              "foodID": "EE1426AF-4DA0-4DC3-B8E8-8D62B4E51278",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "F95DF46F-9049-441A-B078-41B63A5AFA8D",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.05
+            },
+            {
+              "id": "ccaf23f0-c2c0-4726-a4ff-cd0bd66a864a",
+              "amount": 50.0,
+              "foodID": "C75EEBAE-F034-4BBE-B06F-C2046C830351",
+              "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+              "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.34
+            },
+            {
+              "id": "efdff55c-7404-4f47-9613-d0014a497330",
+              "amount": 160.0,
+              "foodID": "7475E873-FAC6-41E5-8260-F594A4C01464",
+              "regionID": "DD927DAC-E4AC-45B4-9067-8F4878748212",
+              "productionActivityID": "6BA84518-422C-4A8E-80FB-3F52778EB983",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.08
+            },
+            {
+              "id": "cf8e4d40-7a3f-4f38-83c9-e208c51827f4",
+              "amount": 150.0,
+              "foodID": "B4E2B453-031D-41D6-B7CC-13A42BE79996",
+              "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+              "productionActivityID": "1E19130C-0CED-42D6-9330-203B8BD5FF61",
+              "isEcological": false,
+              "measurementUnitID": "4",
+              "recipeID": "95ba0ac3-5c48-445c-8d94-64faf96bc5a9",
+              "totalEmission": 0.01
+            }
+          ],
+          "basedOn": null,
+          "instructions": null,
+          "portions": 1,
+          "cookbookIDs": [
+            
+          ],
+          "totalEmission": 0.54
+        }
+      ],
+      "dishName": "Stekt strömming, skirat smör, potatispuré & lingon",
+      "displayNames": null,
+      "dishType": null,
+      "cookbookIDs": [
+        
+      ],
+      "editableByDefault": false,
+      "totalEmission": 0.54,
+      "mainRecipe": null,
+      "price": 0.0,
+      "prices": "80/73/65",
+      "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_3.png"
+    },
+    "availableDishTypes": [
+      {
+        "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+        "dishTypeName": "Classic Vegan",
+        "dishTypeNameEnglish": "Classic Vegan",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+        "dishTypeName": "Classic Fisk",
+        "dishTypeNameEnglish": "Classic Fish",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+        "dishTypeName": "Express",
+        "dishTypeNameEnglish": "Express",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+        "dishTypeName": "Veckans Soppa",
+        "dishTypeNameEnglish": "Veckans Soppa",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+        "dishTypeName": "Classic Kött",
+        "dishTypeNameEnglish": "Classic Meat",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+        "dishTypeName": "Veckans Sallad",
+        "dishTypeNameEnglish": "Veckans Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+        "dishTypeName": "Classic Vegetarisk",
+        "dishTypeNameEnglish": "Classic Vegetarisk",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      }
+    ],
+    "editableByDefault": false,
+    "sortOrder": 0,
+    "numberOfPreparedPortions": 0,
+    "numberOfServedPortions": 0,
+    "allergens": [
+      
+    ],
+    "overrideAllergens": false,
+    "dishMenuSettings": null,
+    "dayMenuSettings": null,
+    "weekMenuSettings": null,
+    "nyckelhalmarkt": false,
+    "wwfApproved": false
+  },
+  {
+    "id": "89a48e1f-d8f3-4fe8-8bb8-a061ada7874c",
+    "startDate": "4/6/2022 12:00:00 AM",
+    "endDate": "4/6/2022 12:00:00 AM",
+    "dishID": "38d90e35-cd85-4f8b-ae0b-879960722acf",
+    "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279",
+    "mealProvidingUnit": {
+      "id": "21f31565-5c2b-4b47-d2a1-08d558129279",
+      "mealProvidingUnitName": "Kårrestaurangen",
+      "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+      "showFoods": true,
+      "showArticles": true,
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "sevenDayWeek": false,
+      "displayNameCategories": null,
+      "dishTypes": [
+        {
+          "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+          "dishTypeName": "Classic Vegan",
+          "dishTypeNameEnglish": "Classic Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+          "dishTypeName": "Classic Fisk",
+          "dishTypeNameEnglish": "Classic Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+          "dishTypeName": "Express",
+          "dishTypeNameEnglish": "Express",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+          "dishTypeName": "Veckans Soppa",
+          "dishTypeNameEnglish": "Veckans Soppa",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+          "dishTypeName": "Classic Kött",
+          "dishTypeNameEnglish": "Classic Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+          "dishTypeName": "Veckans Sallad",
+          "dishTypeNameEnglish": "Veckans Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+          "dishTypeName": "Classic Vegetarisk",
+          "dishTypeNameEnglish": "Classic Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "settings": {
+        "id": "54e3662d-a393-41df-e101-08d5c709c713",
+        "hasLibrary": false,
+        "hasNyckelhalsLabel": false,
+        "hasWwfApprovedLabel": false,
+        "hasPricesLabel": false,
+        "dayMenuSettings": null,
+        "weekMenuSettings": null,
+        "individualMenuSettings": null
+      }
+    },
+    "displayNames": [
+      {
+        "dishID": null,
+        "id": "6f4d838c-6d56-422e-bdcf-78fc2e4113da",
+        "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+        "dishDisplayName": "Abonnerat. Tisdag 5/3 och onsdag 6/3 serveras lunchen i J.A. Pripps",
+        "dishOccurrenceID": "89a48e1f-d8f3-4fe8-8bb8-a061ada7874c",
+        "displayNameCategory": {
+          "displayNameCategoryID": "ad66b846-200f-415d-430d-08d55812927c",
+          "displayNameCategoryName": "Swedish",
+          "sortOrder": 1,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      },
+      {
+        "dishID": null,
+        "id": "c20113da-47ce-4fec-8d7c-e41a7ef453ed",
+        "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+        "dishDisplayName": "Information: Tuesday 5th of march & Wednesday 6th of march, Lunch is served at J.A. Pripps",
+        "dishOccurrenceID": "89a48e1f-d8f3-4fe8-8bb8-a061ada7874c",
+        "displayNameCategory": {
+          "displayNameCategoryID": "7b7b10bd-2ea7-4302-430e-08d55812927c",
+          "displayNameCategoryName": "English",
+          "sortOrder": 2,
+          "mealProvidingUnitID": "21f31565-5c2b-4b47-d2a1-08d558129279"
+        }
+      }
+    ],
+    "dishTypeID": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+    "dishType": {
+      "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+      "dishTypeName": "Classic Vegan",
+      "dishTypeNameEnglish": "Classic Vegan",
+      "isEnabled": true,
+      "price": 0.0,
+      "hasPrice": false
+    },
+    "dish": {
+      "id": "38d90e35-cd85-4f8b-ae0b-879960722acf",
+      "recipes": [
+        {
+          "id": "d95cc9bd-6637-418b-a5ca-b7a475bb2a04",
+          "recipeName": "Huvudrätt",
+          "allergens": [
+            
+          ],
+          "ingredients": [
+            
+          ],
+          "basedOn": null,
+          "instructions": null,
+          "portions": 1,
+          "cookbookIDs": [
+            
+          ],
+          "totalEmission": 0.0
+        }
+      ],
+      "dishName": "info",
+      "displayNames": null,
+      "dishType": null,
+      "cookbookIDs": [
+        
+      ],
+      "editableByDefault": false,
+      "totalEmission": 0.0,
+      "mainRecipe": null,
+      "price": 0.0,
+      "prices": "80/73/65",
+      "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_1.png"
+    },
+    "availableDishTypes": [
+      {
+        "id": "16ea0d5a-8082-4b8a-9003-08d621fbccd9",
+        "dishTypeName": "Classic Vegan",
+        "dishTypeNameEnglish": "Classic Vegan",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "d53f50c0-a348-475d-95b2-5f2ddd63ac9d",
+        "dishTypeName": "Classic Fisk",
+        "dishTypeNameEnglish": "Classic Fish",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "45181fd5-0f97-48e7-97b6-912530e6eb7f",
+        "dishTypeName": "Express",
+        "dishTypeNameEnglish": "Express",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "b978e251-2950-49c8-80fd-b02460f6a35e",
+        "dishTypeName": "Veckans Soppa",
+        "dishTypeNameEnglish": "Veckans Soppa",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "1c111a2f-ad42-47e8-b28d-c26363323f5e",
+        "dishTypeName": "Classic Kött",
+        "dishTypeNameEnglish": "Classic Meat",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "0726f00d-a72f-4d16-930c-e29d0c2ba7b9",
+        "dishTypeName": "Veckans Sallad",
+        "dishTypeNameEnglish": "Veckans Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      {
+        "id": "abe2bbb0-3b09-4f3c-adb9-eddf5d71a709",
+        "dishTypeName": "Classic Vegetarisk",
+        "dishTypeNameEnglish": "Classic Vegetarisk",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      }
+    ],
+    "editableByDefault": false,
+    "sortOrder": 0,
+    "numberOfPreparedPortions": 0,
+    "numberOfServedPortions": 0,
+    "allergens": [
+      
+    ],
+    "overrideAllergens": false,
+    "dishMenuSettings": null,
+    "dayMenuSettings": null,
+    "weekMenuSettings": null,
+    "nyckelhalmarkt": false,
+    "wwfApproved": false
+  }
+]
+
