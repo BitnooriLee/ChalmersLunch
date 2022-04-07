@@ -8,6 +8,16 @@
 import SwiftUI
 
 
+extension View {
+    @ViewBuilder func phoneOnlyNavigationView() -> some View {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            self.navigationViewStyle(.stack)
+        } else {
+            self
+        }
+    }
+}
+
 
 struct ContentView: View {
     
@@ -24,52 +34,68 @@ struct ContentView: View {
     @State private var restaurants = [Restaurant]()
     
     @State private var loadingState = LoadingState.loading
-    @State private var pages = [Page]()
     
+    @StateObject var favorites = Favorites()
+    @State private var searchText = ""
     
     var body: some View {
-        NavigationView{
-            Form{
-                Section{
-                    TextField("Place name", text: $name)
-                    TextField("Description", text: $description)
-                }
-                
-                Section("Nearby...") {
-                    switch loadingState {
-                    case .loading:
-                        Text("Loading")
-                    case .loaded:
-                        ForEach(pages, id: \.pageid) {
-                            page in
-                            Text(page.title)
-                                .font(.headline)
-                            + Text(": ") + Text(page.description)
-                                .italic()
+        NavigationView {
+            List(filteredRestaurants) { restaurant in
+                NavigationLink {
+                    RestaurantView(restaurant:  restaurant)
+                } label: {
+                    HStack{
+                    Image(restaurant.country)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40, height: 25)
+                        .clipShape(RoundedRectangle(cornerRadius: 5))
+                        .overlay{
+                            RoundedRectangle(cornerRadius: 5)
+                                .stroke(.black, lineWidth: 1)
                         }
-                    case .failed:
-                        Text("Please try again later.")
+                    
+                    VStack(alignment: .leading) {
+                        Text(restaurants[0].mealProvidingUnit.mealProvidingUnitName)
+                            .font(.headline)
+                        Text("\(restaurant.count) menu")
+                            .foregroundColor(.secondary)
                     }
-                }
-                
-            }
-            .navigationTitle("Place details")
-            .toolbar{
-                Button("Save"){
-                    var newRestaurant = restaurant
-                 //   newRestaurant.id = UUID()
-                   // newRestaurant.name = name
-                   // newRestaurant.description = description
-                    onSave(newRestaurant)
-                    dismiss()
+                    if favorites.contains(restaurant) {
+                        Spacer()
+                        Image(systemName: "heart.fill")
+                            .accessibilityLabel("This is a favorite restaurant")
+                            .foregroundColor(.red)
+                    }
+                        
+                    }
+                    
                 }
             }
-            .task {
-                await fetchData()
+        .navigationTitle("Restaurant")
+        .searchable(text: $searchText, prompt: "Search for a restaurant")
+        .task {
+                    await fetchData()
+                }
+            
+        WelcomeView()
+            
+        }
+        .environmentObject(favorites)
+    }
+    
+    var filteredRestaurants: [Restaurant] {
+        if searchText.isEmpty {
+            return restaurants
+        } else {
+            return restaurants.filter {
+                $0.mealProvidingUnit.mealProvidingUnitName.localizedCaseInsensitiveContains(searchText)
             }
         }
     }
-        
+
+
+      
         init(restaurant:Restaurant, onSave: @escaping (Restaurant)-> Void) {
             self.restaurant = restaurant
             self.onSave = onSave
@@ -87,17 +113,16 @@ struct ContentView: View {
             
             do {
                 
-                
                 let (data, _) = try await URLSession.shared.data(from: url)
-                if let decodedResponse = try? JSONDecoder().decode(Restaurant.self, from: data) {
-                    restaurants = decodedResponse.restaurants
+                if let decodedResponse = try? JSONDecoder().decode(Restaurants.self, from: data) {
+                    restaurants = decodedResponse.results
                 }
                 
              //   let items = try JSONDecoder().decode(Result.self, from: data)
             //    pages = items.query.pages.values.sorted()
-            //    loadingState = .loaded
+                loadingState = .loaded
             } catch {
-             //   loadingState = .failed
+                loadingState = .failed
             }
         }
 }
