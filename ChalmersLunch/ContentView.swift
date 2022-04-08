@@ -21,6 +21,24 @@ extension View {
 
 struct ContentView: View {
     
+    let restaurantIDmap : [String: String]  = ["Kårrestaurangen":
+                                            "21f31565-5c2b-4b47-d2a1-08d558129279",
+                                        "Express Johanneberg": "3d519481-1667-4cad-d2a3-08d558129279",
+                                          "Hyllan":
+                                            "a7f0f75b-c1cb-4fc3-d2a6-08d558129279",
+                                        "Linsen":
+                                            "b672efaf-032a-4bb8-d2a5-08d558129279",
+                                        "SMAK":
+                                            "3ac68e11-bcee-425e-d2a8-08d558129279",
+                                        "L's Kitchen":
+                                            "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1",
+                                        "L´s Resto":
+                                            "c6742862-3cc5-47b1-d2a4-08d558129279",
+                                        "Kokboken":
+                                            "4dce0df9-c6e7-46cf-d2a7-08d558129279",
+                           ]
+
+    
     enum LoadingState {
         case loading, loaded, failed
     }
@@ -29,8 +47,8 @@ struct ContentView: View {
     var restaurant: Restaurant
     var onSave: (Restaurant) -> Void
     
-    @State private var name: String
-    @State private var description: String
+   // @State private var name: String
+   // @State private var description: String
     @State private var restaurants = [Restaurant]()
     
     @State private var loadingState = LoadingState.loading
@@ -45,7 +63,7 @@ struct ContentView: View {
                     RestaurantView(restaurant:  restaurant)
                 } label: {
                     HStack{
-                    Image(restaurant.country)
+                    Image("Kårrestaurangen_1") //need to fix
                         .resizable()
                         .scaledToFit()
                         .frame(width: 40, height: 25)
@@ -58,7 +76,7 @@ struct ContentView: View {
                     VStack(alignment: .leading) {
                         Text(restaurants[0].mealProvidingUnit.mealProvidingUnitName)
                             .font(.headline)
-                        Text("\(restaurant.count) menu")
+                        Text("\(restaurants.count) menu")
                             .foregroundColor(.secondary)
                     }
                     if favorites.contains(restaurant) {
@@ -96,12 +114,12 @@ struct ContentView: View {
 
 
       
-        init(restaurant:Restaurant, onSave: @escaping (Restaurant)-> Void) {
-            self.restaurant = restaurant
-            self.onSave = onSave
+       // init(restaurant:Restaurant, onSave: @escaping (Restaurant)-> Void) {
+        //    self.restaurant = restaurant
+        //    self.onSave = onSave
         //    _name = State(initialValue: restaurant.name)
         //    _description = State(initialValue: restaurant.description)
-        }
+        //}
         
         func fetchData() async {
             let urlString = "http://carbonateapiprod.azurewebsites.net/api/v1/mealprovidingunits/\(restaurants[0].mealProvidingUnitID)/dishoccurrences"
@@ -130,5 +148,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(restaurant: Restaurant.example) { _ in }
+        
+        
     }
 }
